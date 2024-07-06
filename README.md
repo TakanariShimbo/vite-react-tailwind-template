@@ -4,7 +4,7 @@ My template of Vite x React x Tailwind
 
 ## 📝 Memo
 
-- require: volta
+- require: volta, python
 
 ### 1 upgrade node & npm
 
