@@ -23,3 +23,9 @@ npm create vite@latest vite-react-tailwind-template -- --template react
 
 - .eslintrc.cjs (remove file)
 - package.json (remove a few row)
+
+### 4 install modules
+
+```sh
+npm install
+```
