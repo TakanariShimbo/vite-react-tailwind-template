@@ -42,3 +42,24 @@ npx tailwindcss init -p
 - src/App.jsx (replace to check tailwind installation)
 - src/asserts (remove dir)
 - src/App.css (remove file)
+
+### 6 check
+
+- check on vite server
+
+```sh
+npm run build
+npm run preview
+```
+
+You can heck here (http://localhost:4173/) after building server.
+
+- check on static server
+
+```sh
+npm run build
+cd dist
+python -m http.server
+```
+
+You can heck here (http://localhost:8000/) after building server.
