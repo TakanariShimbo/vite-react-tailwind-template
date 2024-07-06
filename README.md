@@ -29,3 +29,16 @@ npm create vite@latest vite-react-tailwind-template -- --template react
 ```sh
 npm install
 ```
+
+### 5 add tailwind
+
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+- src/index.css (replace to the Tailwind directives)
+- tailwind.config.js (add contents)
+- src/App.jsx (replace to check tailwind installation)
+- src/asserts (remove dir)
+- src/App.css (remove file)
