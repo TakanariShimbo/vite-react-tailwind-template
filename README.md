@@ -32,6 +32,8 @@ npm install
 
 ### 5 add tailwind
 
+ref: https://tailwindcss.com/docs/guides/vite
+
 ```sh
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
