@@ -18,3 +18,8 @@ volta install npm@latest
 ```sh
 npm create vite@latest vite-react-tailwind-template -- --template react
 ```
+
+### 3 remove eslint
+
+- .eslintrc.cjs (remove file)
+- package.json (remove a few row)
