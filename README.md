@@ -45,7 +45,11 @@ npx tailwindcss init -p
 - src/asserts (remove dir)
 - src/App.css (remove file)
 
-### 6 check
+### 6 change out dir of build
+
+- vite.config.js (define outDir of build)
+
+### 7 check
 
 - check on vite server
 
@@ -60,7 +64,7 @@ You can heck here (http://localhost:4173/) after building server.
 
 ```sh
 npm run build
-cd dist
+cd dist # cd to out dir of build
 python -m http.server
 ```
 
