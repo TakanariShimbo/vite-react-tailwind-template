@@ -2,9 +2,27 @@
 
 My template of Vite x React x Tailwind
 
+## 💻 Check
+
+- require: npm
+
+```sh
+# install and build
+npm ci
+npm run build
+
+# on vite server
+npm run vite-preview
+
+# on static server
+npm run static-preview
+```
+
+You can check here (http://localhost:8000/) after building server.
+
 ## 📝 Memo
 
-- require: volta, python
+- require: volta
 
 ### 1 upgrade node & npm
 
@@ -49,23 +67,10 @@ npx tailwindcss init -p
 
 - vite.config.js (define outDir of build)
 
-### 7 check
-
-- check on vite server
+### 7 add static server
 
 ```sh
-npm run build
-npm run preview
+npm install http-server
 ```
 
-You can heck here (http://localhost:4173/) after building server.
-
-- check on static server
-
-```sh
-npm run build
-cd dist # cd to out dir of build
-python -m http.server
-```
-
-You can heck here (http://localhost:8000/) after building server.
+- package.json (edit a few row)
