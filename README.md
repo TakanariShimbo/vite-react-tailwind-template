@@ -34,7 +34,8 @@ volta install npm@latest
 ### 2 scaffold for project
 
 ```sh
-npm create vite@latest vite-react-tailwind-template -- --template react
+# execute bellow command at project dir.
+npm create vite@latest . -- --template react
 ```
 
 ### 3 remove eslint
