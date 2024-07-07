@@ -1,6 +1,8 @@
 ## 🚀 About
 
-My template of Vite x React x Tailwind
+My template of Vite + React + Tailwind
+
+![VITExREACTxTAILWIND](/README/vite-react-tailwind.png)
 
 ## 💻 Check
 
